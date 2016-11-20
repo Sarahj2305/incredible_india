@@ -1,0 +1,446 @@
+/*--------------------------------global---------------------------------*/
+
+body{
+	margin: 0;
+  padding: 0px;
+	overflow-x: hidden;
+}
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+  .container{
+  	max-width: 62.5em;
+  }
+
+/*---------------------------------------------------global-----------------------------------------------------*/
+
+
+.hero-container {
+	height: 100vh;
+	width: 100%;
+	/*background-image: url('../img/1.jpg');*/
+	/*background-size: cover;*/
+}
+
+
+
+/*---------------------------------------------------- NAVBAR ------------------------------------------*/
+
+
+
+
+
+.top-nav ul{
+  position: absolute;
+  right: 18%;
+  top: 0;
+  margin-top: 18px; 
+}
+
+.top-nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.top-nav ul li{
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 10px;3w
+}
+
+
+.dropdown{
+
+
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.wishlistheart {
+background-color: transparent;
+height: 14px;
+width: 11px
+border-left: none;
+
+}
+
+.top-nav li{
+  font-family:'Open Sans', sans-serif;
+  font-size: 11px;
+}
+
+.bottom-nav{
+  position: relative;
+  left: 10%;
+  top: 46px;
+}
+
+.nav-links{
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  width: 66%;
+}
+
+.nav-links li{
+  display: inline-block;
+  margin-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-links li a{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+
+  text-decoration:underline;    
+  text-underline-position:center;
+  color:#c2c2c2;
+  border-width: 0px 0px 4px 0px;
+  padding-bottom: 11px;
+
+}
+
+.search{
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-right: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+    height: 20px;
+    outline: none;
+    margin-left: 30px;
+
+  /*background-image: url('../img/searchicon.png');*/
+}
+
+.search-button{
+  background-color: transparent;
+  height: 26px;
+  border-left: none;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  /* background-color: white; */
+  padding-top: 2px;
+  border-radius: 0 10px 10px 0px;
+  transform: translate3d(-4px, 2px, 0);
+  cursor: pointer;
+}
+
+.hero-title{
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+/*content*/
+
+.hero-container h1{
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+
+
+
+.hero-container p{
+
+  font-weight: bold;
+  padding: 2px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: 'Rokkitt', serif;
+  font-style: italic;
+  font-weight: 150;
+  font-size: 41px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+
+}
+
+
+/*indiamap*/
+
+.indiamap{
+  position: absolute;
+  position: absolute;
+  margin-top: 292px;
+  margin-left: 77%;
+  padding: 10px 
+  
+}
+
+
+.buttonlocator{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 81%;
+  margin-top: 323px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------- SECTION 2 QUOTE-------------------------------------------*/
+
+
+.modi{
+
+  display: block;
+  margin-top: 341px;
+  padding: 0.2%
+  max-width:1400px;
+  }
+
+.modi blockquote{
+
+  text-align: center;
+  color: #2f2f2f;
+  position: relative;
+  left: 47%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family:'Trirong', serif;
+  font-style: italic;
+  font-size: 29px;
+  line-height: 201%;
+  padding: 39px;
+}
+
+
+
+
+
+.modi img{
+
+  position: relative;
+  margin-left: 50%;
+  padding: 10px;
+  transform: translate3d(-50%, -50%, 0);
+
+}
+
+
+.modi h1{
+
+  text-align: center;
+  margin-top: -4%;
+  padding top: 20px;
+  color: #2f2f2f;  
+  position: relative;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family:'Trirong', serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+ 
+}
+
+.modi p{
+
+  text-align: center;
+  padding top: 20px;
+  margin-top: -2%;
+  color: #2f2f2f;
+  position: relative;
+  left: 47%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family:'Trirong', serif;
+  font-size: 15px;
+ 
+}
+
+
+
+/*------------------------------------------------- HYPERLINKS -------------------------------------------*/
+
+.hyperlinks{
+
+  text-decoration: none;
+  text-align: center;
+  padding top: 20px; 
+  font-family:'Trirong', serif;
+  font-size: 12px;
+
+  
+}
+
+
+
+/*------------------------------------------------- PAGE DIVIDER -------------------------------------------*/
+
+
+
+.pagedivider{
+  position: relative;
+  transform: translate3d(-50%, -50%, 0);
+  padding-left: 99%;
+  padding-top: 16%;
+  padding-bottom: 1%;
+}
+
+
+
+
+
+/*------------------------------------------------- SECTION 3 SECTIONTITLES (GET INSPIRED) -------------------------------------------*/
+
+
+
+
+
+
+
+
+.sectiontitle h1{
+
+  
+  text-align: center;
+  color: #2f2f2f;
+  position: relative;
+  left: 49%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family:'Trirong', serif;
+  font-size: 29px;
+  
+}
+
+.subnavigation {
+
+  color: #7c7c7c;
+  margin-top: -3%;
+  padding-right: 9%;
+  padding top: 20px; 
+  font-family:'Trirong', serif;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  margin-top: -3%;
+  color: black;
+  text-decoration: none;
+  left: 3%;
+}
+
+
+
+
+/*------------------------------------------------- SECTION 3 IMAGES (GET INSPIRED) -------------------------------------------*/
+
+.placeholder{
+
+    padding-bottom: 5%;
+    position: relative;
+    padding-top: 82px;
+    left: 13%;
+}
+
+/*------------------------------------------------- HYPERLINK -------------------------------------------*/
+
+/*------------------------------------------------- PAGEDIVIDER -------------------------------------------*/
+
+
+
+/*------------------------------------------------- IMAGE BANNER (SURPRISE ME) -------------------------------------------*/
+
+
+.imagebanner1 {
+    background-image: url('../images/bannersurpriseme.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 3%;
+  }
+
+/*------------------------------------------------- SECTION 4 SECTIONTITLES (MUST DO'S) -------------------------------------------*/
+
+/*------------------------------------------------- SECTION 4 IMAGES (MUST DO'S) -------------------------------------------*/
+
+
+
+
+
+.imagebanner1 {
+
+    background-image: url('../images/bannersurpriseme.png');
+    min-width: 1024px;
+    background-size: cover;
+    height: 631px;
+    margin-bottom: 3%;
+  }
+
+
+
+
+
+.imagebanner2 {
+    background-image: url('../images/mobileapp.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3%;
+    margin-top: 10%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
