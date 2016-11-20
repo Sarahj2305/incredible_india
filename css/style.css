@@ -259,9 +259,9 @@ border-left: none;
 
   text-align: center;
   color: #2f2f2f;
-  position: relative;
-  left: 47%;
-  transform: translate3d(-50%, -50%, 0);
+  /*position: relative;*/
+  /*left: 47%;*/
+  /*transform: translate3d(-50%, -50%, 0);*/
   font-family:'Trirong', serif;
   font-style: italic;
   font-size: 29px;
