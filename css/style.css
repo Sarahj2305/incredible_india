@@ -33,7 +33,8 @@ video {
   /* 2 */ }
 
   .container{
-  	max-width: 62.5em;
+  	margin-left: 15%;
+    margin-right:15%;
   }
 
   .vhcenter{
@@ -45,7 +46,8 @@ video {
 
   .hcenter{
     position: relative;
-    left: 50%;
+    left: 
+    50%;
     transform: translateX(-50%);
   }
 
@@ -59,18 +61,58 @@ video {
 	/*background-size: cover;*/
 }
 
-.hero-container-arch {
-
-  height: 100vh;
-  width: 100%;
+.discover-hero{
+ 
   background-image: url(../images/discoverindia/discoverindiaheader.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.media-hero{
+
+  background-image: url(../images/media/mediaheader.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.travelguide-hero{
+
+  background-image: url(../images/travelguide/travelguideheader.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.surpriseme-hero{
+
+  background-image: url(../images/surpriseme/surprisemeheader.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.planatrip-hero{
+
+  background-image: url(../images/planatrip/planatripheader.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 
 }
 
 
+.northernregion-hero{
+   background-image: url(../images/northernregion/1.1.png);
+  background-size: cover;
+  height: 1100px;
+  width: 100%;
 
+}
 
 
 /*---------------------------------------------------- NAVBAR ------------------------------------------*/
@@ -83,7 +125,7 @@ video {
   position: absolute;
   right: 11%;
   top: 0;
-  margin-top: 18px; 
+  margin-top: 1.5%; 
 }
 
 .top-nav ul li a{
@@ -94,21 +136,20 @@ video {
 .top-nav ul li{
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 10px;3w
+  margin-right: 10px;
 }
 
 
 .dropdown{
-
-
-    background-color: transparent;
+    background-color:transparent;
     border: none;
     color: white;
 }
 
+
 .wishlistheart {
 background-color: transparent;
-height: 14px;
+height: 11px;
 width: 11px
 border-left: none;
 
@@ -121,8 +162,9 @@ border-left: none;
 
 .bottom-nav{
   position: relative;
-  left: 10%;
+  left: -4%;
   top: 46px;
+  margin-right: 1%;
 }
 
 .nav-links{
@@ -146,47 +188,78 @@ border-left: none;
 
 .nav-links a:hover {
 
-  text-decoration:underline;    
-  text-underline-position:center;
+  text-decoration:bold;    
+  font-weight: 200;
   color:#c2c2c2;
   border-width: 0px 0px 4px 0px;
   padding-bottom: 11px;
 
 }
 
-.search{
-    border-left: 2px solid #fff;
-    border-top: 2px solid #fff;
-    border-right: none;
-    border-bottom: 2px solid #fff;
-    background-color: transparent;
-    border-radius: 10px 0px 0px 10px;
-    height: 20px;
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.searchTerm {
+    border: 1px solid #fff;
+    float: right;
+    width: 71%;
+    background: transparent;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 110%;
+    padding: 5px;
+    height: 17px;
+    border-radius: 8px;
     outline: none;
-    margin-left: 30px;
+    color: white;
 
-  /*background-image: url('../img/searchicon.png');*/
 }
 
-.search-button{
-  background-color: transparent;
-  height: 26px;
-  border-left: none;
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  /* background-color: white; */
-  padding-top: 2px;
-  border-radius: 0 10px 10px 0px;
-  transform: translate3d(-4px, 2px, 0);
-  cursor: pointer;
+.searchTerm:focus{
+  color: solid #fff;
 }
 
-.hero-title{
-  font-family:'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
+.searchButton {
+    border: none;
+    margin-right: 1%;
+    bottom: -20px;
+    background: transparent;
+    position: absolute;
+    right: -253px;
+    width: 40px;
+    height: 34px;
+    /* border: 1px solid #00B4CC; */
+    /* background: #00B4CC; */
+    text-align: center;
+    /* color: #fff; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+    font-size: 20px;
 }
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.searchicon {
+background-color: transparent;
+height: 17px;
+width: 11px
+border-left: none;
+}
+
+
+
+
+
 
 
 
@@ -241,7 +314,7 @@ border-left: none;
 
 .buttonlocator{
   background-color: transparent;
-  position: absolute;
+  position: relative;
   margin-left: 82%;
   margin-top: 286px;
 
@@ -282,7 +355,7 @@ border-left: none;
 .modi{
 
   display: block;
-  margin-top: 230px;
+  margin-top: 8%;
   padding: 0.2%
   max-width:1400px;
   }
@@ -309,7 +382,7 @@ border-left: none;
 
   position: relative;
   /*margin-left: 50%;*/
-  padding: 10px;
+ 
   /*transform: translate3d(-50%, -50%, 0);*/
 
 }
@@ -317,9 +390,9 @@ border-left: none;
 
 .modi h1{
 
+  
+  margin-top: 13px;
   text-align: center;
-  /*margin-top: -4%;*/
-  padding top: 20px;
   color: #2f2f2f;  
   font-family:'Trirong', serif;
   font-size: 25px;
@@ -331,7 +404,7 @@ border-left: none;
 
   text-align: center;
   /*padding top: 20px;*/
-  /*margin-top: -2%;*/
+  margin-top: -1%;
   color: #2f2f2f;
   /*position: relative;*/
   /*left: 47%;*/
@@ -345,16 +418,23 @@ border-left: none;
 
 /*------------------------------------------------- HYPERLINKS -------------------------------------------*/
 
-.hyperlinks{
 
+.hyperlinks a{
+  position: relative;
   text-decoration: none;
   text-align: center;
-  padding top: 20px; 
+  padding:2%; 
   font-family:'Trirong', serif;
   font-size: 12px;
-
-  
+  color: red;
+  margin-left: 42.5%; 
 }
+
+.hyperlinks a:hover{
+  color: grey;
+}
+
+
 
 
 
@@ -387,8 +467,9 @@ border-left: none;
 
 
 .sectiontitle h1{
-
-  margin-top: 10pc;
+  /*border-bottom: solid grey 2px;*/
+  margin-top: 1%;
+  margin-bottom: 1%;
   text-align: center;
   color: #2f2f2f;
   /*position: relative;
@@ -399,42 +480,51 @@ border-left: none;
   
 }
 
-.subnavigation {
 
-  color: #7c7c7c;
-  /* margin-top: -3%; */
-  /* padding-right: 9%; */
+.subnavigation{
+  margin-left: 32%
+
+
+}
+
+
+
+.subnavigation nav a{  
+  text-decoration: none; 
+  text-align: center;
+  padding-bottom: 8%;
   font-family: 'Trirong', serif;
   font-size: 15px;
-  /* position: relative; */
-  text-align: center;
+  text-decoration: none;
+  color:grey;
+  border-width: 0px 0px 4px 0px;
+  text-align: center;  
   /* margin-top: -3%; */
-  color: black;
+  /* padding-right: 9%; */ 
+  /* position: relative; */ 
+  /* margin-top: -3%; */  
   /* text-decoration: none; */
   /* left: 3%; */
 }
 
 
 
+.subnavigation a:hover {
+
+  text-decoration: none;
+  color:#c2c2c2;
+  border-width: 0px 0px 4px 0px;
+
+}
+
+
 
 /*------------------------------------------------- SECTION 3 IMAGES (GET INSPIRED) -------------------------------------------*/
 
-.imagepattern1{
-  
-  left:5px; 
-  right:5px; 
-  top:10px; 
-  bottom:5px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+.imagepattern4,.getinspired { 
+  margin-top: 5%;
 
- }
-
- .imagepattern1 .nature{
-
-      margin-left: 1%;
 }
-
 
   /*----------------------- HYPERLINK -------------------------------------------*/
 
@@ -556,40 +646,75 @@ border-left: none;
 
 /*------------------------------------------------- SECTION 4 IMAGES (MUST DO'S) -------------------------------------------*/
 
-.imagepattern2{
+.imagepattern2 .mustdos{
+   
   margin-top: 10%;
+   width: 32.3%;
+ 
 }
+
+
+.imagepattern2-mustdo-column{
+  position: relative;
+ 
+  margin-right: 1.5%;
+  float: left;
+
+}
+
+
+.imagepattern2-mustdo-column:nth-child(3n+0){
+margin-right: 0;
+}
+
+.imagepattern2-mustdo-column .featured img{
+  width: 100%;
+  margin-bottom: 4.5%;  
+}
+
+.imagepattern4 h5 { 
+   float: right;
+   font-family:'Trirong', serif;
+   font-size: 12px;
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+   margin-top: -20%;
+   color: #fff;
+   margin-left: 5%;
+}
+
+.imagepattern4 h4 { 
+   font-family:'Trirong', serif;
+   font-size: 14px;
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+   margin-top: -20%;
+   color: #fff;
+   margin-left: 5%;
+}
+
+
+
 
 /*------------------------------------------------- PAGEDIVIDER -------------------------------------------*/
 
 
 
-/*------------------------------------------------- SECTION 4 SECTIONTITLES (MUST DO'S) -------------------------------------------*/
+/*------------------------------------------------- SECTION 4 SECTIONTITLES (ON THE GO) -------------------------------------------*/
 
 .onthego h2{
 
-  color: #2f2f2f; 
-  font-family:'Trirong', serif;
-  font-size:18px;
-  position: relative;
-  bottom: 10px;
-  margin-left: 19%;
-  margin-top: 3%;
-
+    color: #2f2f2f;
+    font-family: 'Trirong', serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 6%;
+    margin-top: 3%
 }
 
-
-
-.onthego p{
-
-  color: #7c7c7c; 
-  font-family:'Trirong', serif;
-  font-size:15px;
-  position: relative;
-  bottom: 18px;
-  margin-left: 16%;
-  margin-bottom: 10%;
-}
 
 /*------------------------------------------------- IMAGE BANNER2 (ON THE GO) -------------------------------------------*/
 
@@ -598,7 +723,7 @@ border-left: none;
     background-image: url('../images/mobileapp.png');
     min-width: 1024px;
     background-size: cover;
-    height: 385px;
+    height: 441px;
     margin-bottom: 3%;
   }
 
@@ -606,16 +731,16 @@ border-left: none;
 .mobileapp .imagebutton{
 
     margin-left: 72%;
-    bottom: 333px;
+    bottom: 404px;
 
 }
 
 .appstore{
 
       position: relative;
-    margin-left: 68%;
+    margin-left: 67%;
     /* margin-bottom: 15%; */
-    bottom: 308px;
+    bottom: 389px;
 }
 
 
@@ -625,25 +750,29 @@ border-left: none;
 
 .footer{
 
-    min-width: 1024px;
+    margin-top: 3%
+    width:100%;
     background-size: cover;
     height: 385px;
     margin-bottom: 3%;
   }
 
+.nav-logo{
+  margin-left: 15%;
 
+}
 
 .footer-nav{
+  font-size: small;
   position: relative;
-  left: 10%;
-  top: 46px;
+  width: 43%
+  margin-left: 27%;
 }
 
 .footer-links{
   display: inline-block;
   position: relative;
-  top: -10px;
-  width: 650%%;
+ 
 }
 
 .footer-links li{
@@ -658,19 +787,16 @@ border-left: none;
   text-decoration: none;
 }
 
-.footer-links a:hover {
-
-  text-decoration:underline;    
-  text-underline-position:center;
+.footer-links a:hover {  
   color:#c2c2c2;
   border-width: 0px 0px 4px 0px;
-  padding-bottom: 11px;
+  padding-bottom: 5px;
 
 }
 
 
 
-
+/*
 .form{     
   border:2px;
   color: grey;
@@ -681,10 +807,10 @@ border-left: none;
   color: #7c7c7c; 
   font-family:'Trirong', serif;
   font-size:10px;
-}
+}*/
 
 
-.socialmedia .hcenter{
+.socialmediaicons .hcenter{
   margin-left: 47%;
 }
 
@@ -719,9 +845,7 @@ border-left: none;
 .interior-page-title{
 
 
-    /*margin-right: 20%;*/
-    /*margin-top: 267px;*/
-    /*margin-top: 18pc;*/
+    margin-top: -195px;
     text-align: center;
     color: #2f2f2f;
     /*position: relative;
@@ -733,18 +857,17 @@ border-left: none;
 
 
 .discoverindia img{
- /*left: 5%;*/
-/*bottom: 21px;*/
+ left: 5%;
+bottom: 21px;
 }
 
 
 
 .introduction p{
 
-  margin-left: 7%;
+  margin-left: 11%;
   margin-top: 2%;
-  /*width: 67%;*/
-  padding: 0 30px;
+  width: 76%;
   text-align: center;
   color: #7c7c7c;
   /*position: relative;*/
@@ -764,25 +887,57 @@ border-left: none;
 
 
 /*------------------------------------------------------------- SECTION 2 SECTIONTITLES (CITIES) --------------------------------------------*/
-.cities, .sectiontitle{
+.cities .sectiontitle{
 
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 
 /*------------------------------------------------------------- SECTION 2 IMAGES (CITIES) --------------------------------------------*/
 
+
+.imagepattern3citieslucknow{
+  width: 47.5%;
+  float: left;
+  position: relative; 
+  margin-right: 1.5%;
+
+}
+
+.imagepattern3cities {  
+  width: 22.85%;
+  float: left;
+  position: relative; 
+  margin-right: 1.5%;
+
+}
+
+
+.imagepattern3citiespart1:nth-child(3n+0){
+margin-right: 0;
+}
+
+.imagepattern3 h5 { 
+   font-family:'Trirong', serif;
+   font-size: 14px;
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+   margin-top: -20%;
+   color: #fff;
+   margin-left: 5%;
+}
+
+
+
+
 /*------------------------------------------------------------- HYPERLINK --------------------------------------------*/
 
-.undercities, .hyperlinks{
-
-  margin-bottom: 30px;
-}
 
 /*------------------------------------------------------------- PAGE DIVIDER--------------------------------------------*/
 
 .aboveexplore, .pagedivider, .hcenter{
- margin-top: 9%;
+ margin-top: 1%;
 }
 
 
@@ -794,31 +949,59 @@ border-left: none;
 
 
 .imagepattern4explore{
+  width: 23.85%;
+  float: left;
+  position: relative; 
+  margin-right: 1.5%;
 
-  display:inline-block;
-  border-color: purple;
-          }
+}
+
+.imagepattern4explore:nth-child(4n+0){
+margin-right: 0;
+}
+
+.imagepattern4explore img{
+  width: 100%;
+  margin-bottom: 4.5%;
+  
+}
 
 
-.imagepattern4explore img {
-     height: 200px;
-     width: 200px;
-    }
+.imagepattern4explore img:hover{  
+ /*animations here  */
+}
+
+.imagepattern4 h5 { 
+   font-family:'Trirong', serif;
+   font-size: 14px;
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+   margin-top: -20%;
+   color: #fff;
+   margin-left: 5%;
+}
 
 
-    p {
-      text-align:center;
-    }
 
+ .imagepattern4explore img {
+   -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
 
+.imagepattern4explore img:hover {
+    -webkit-transform: translateY(-0.4em);
+    -moz-transform: translateY(-0.4em);
+    -o-transform: translateY(-0.4em);
+    -ms-transform: translateY(-0.4em);
+    transform: translateY(-0.4em);
+  }
 
 
 /*------------------------------------------------------------- HYPERLINK --------------------------------------------*/
 
-.underexplore, .hyperlinks{
-
-     margin-top: 75px;
-}
 
 
 /*------------------------------------------------------------- PAGE DIVIDER--------------------------------------------*/
@@ -882,20 +1065,58 @@ border-left: none;
 /*------------------------------------------ SECTION 4 IMAGES (FEATURES)-----------------------------------------*/
 
 
-div.imagepattern5features {
+.imagepattern5{
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-bottom: 5%; 
+ 
+}
 
-  padding: 10px;
-   display:inline-block;
-   border-color: purple;
+.imagepattern5 img{
+  width: 23%;
+  margin-bottom: 4.5%;
+  margin-right: 1.2%;  
+}
 
-    }
+
+.imagepattern5:nth-child(4n+0){
+margin-right: 0;
+}
 
 
 
-   .imagepattern5{
-   
-    margin-bottom: 151px;}
+.imagepattern5 img:hover{  
+ /*animations here  */
+}
 
+.imagepattern5 h5 { 
+   font-family:'Trirong', serif;
+   font-size: 14px;
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+   margin-top: -20%;
+   color: #fff;
+   margin-left: 5%;
+}
+
+
+
+ .imagepattern5 img {
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+
+.imagepattern5 img:hover {
+-webkit-transform: translateY(-0.4em);
+    -moz-transform: translateY(-0.4em);
+    -o-transform: translateY(-0.4em);
+    -ms-transform: translateY(-0.4em);
+    transform: translateY(-0.4em);
+  }
 
 
 
@@ -905,6 +1126,210 @@ div.imagepattern5features {
 
 
 
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+/*------------------------------------------------------------DISCOVER INDIA - CITIES------------------------------------*/
+
+
+
+.filter input[type=text] {
+    position: relative;
+    left: 5%;
+    width: 15%;
+    padding: 5px;
+    border-radius: 4px;
+    background: #fff;
+    margin-right: -1%;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------MEDIA--------------------------------------------------------------------*/
+/*------------------------------------------------------------MEDIA--------------------------------------------------------------------*/
+/*------------------------------------------------------------MEDIA--------------------------------------------------------------------*/
+/*------------------------------------------------------------MEDIA--------------------------------------------------------------------*/
+/*------------------------------------------------------------MEDIA--------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------- SECTION 1 MEDIA  --------------------------------------------*/
+
+/*------------------------------------------------------------- PAGE DIVIDER  --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 2 SECTIONTITLES (EVENTS) --------------------------------------------*/
+
+
+.events-banner {
+
+    background-image: url('../images/media/eventslider1.png');
+    min-width: 1024px;
+    background-size: cover;
+    height: 580px;
+    margin-bottom: 3%;
+  }
+
+
+.events-banner h1{
+
+  color: white;  
+  font-family:'Trirong', serif;
+  font-size:40px;
+  position: relative;
+  margin-left: 35%;
+  top: 409px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+
+
+
+
+.events-banner  p{
+ text-align: center;
+  color: white; 
+  font-weight: 10px; 
+  font-family:'Trirong', serif;
+  font-size:25px;
+  font-style: italic;
+  letter-spacing: 1px;
+  position: relative;
+ top: 377px;
+ text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+
+    }
+
+
+/*------------------------------------------------------------- PAGE DIVIDER  --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 2 SECTIONTITLES (ARTICLES) --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 2 IMAGES (ARTICLES) --------------------------------------------*/
+
+
+/*------------------------------------------------------------- PAGE DIVIDER  --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 3 SECTIONTITLES (SOCIALMEDIA) --------------------------------------------*/
+
+
+
+
+.socialmedia p{
+
+    text-align: center;
+    width: 70%;
+    color: #7c7c7c;
+    font-family: 'Trirong', serif;
+    font-size: 20px;
+    position: relative;
+    bottom: 11px;
+    margin-left: 14%;
+    margin-bottom: 10%;
+}
+
+
+/*------------------------------------------------------------- SECTION 3 IMAGES (SOCIALMEDIA) --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 3 LINKS(SOCIALMEDIA) --------------------------------------------*/
+
+
+
+.socialmedialinks{
+  margin-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+
+/*-------------------------------------------------------------FOOTER --------------------------------------------*/
+
+
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+/*------------------------------------------------------------MEDIA ARTICLE---------------------------------------*/
+
+
+.articleheading{
+  text-align: center;
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 13px;
+  margin-bottom: 4%;
+
+}
+
+
+
+.writerinfo{
+ margin-left: 46%
+}
+
+.writerinfo h1{
+ position: relative;
+ margin-left: 4%;
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 12px;
+
+}
+
+.writerinfo p{
+ 
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 10px;
+  margin-bottom: 13%;
+  margin-top: -2%;
+  position: relative;
+  /* margin-right: 4%; */
+ right: 2%; 
+
+}
+
+.article{
+  width: 80%;
+  margin-left: 11%;
+}
+
+.article p{
+  text-align: justify; 
+  text-align-last: left;
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 14px; 
+  position: relative;
+  /* margin-right: 4%; */
+}
+
+.article img{
+
+  margin-left: 21%;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+  
+.sharelinks {
+  margin-left: 21%;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------------------ARTICLE---------------------------------------*/
 
 
 
@@ -914,6 +1339,15 @@ div.imagepattern5features {
 
 
 
+/*------------------------------------------------------------SURPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*//*------------------------------------------------------------SURPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
+/*------------------------------------------------------------SUPRISE ME--------------------------------------------------------------------*/
 
 
 
@@ -921,7 +1355,381 @@ div.imagepattern5features {
 
 
 
+/*------------------------------------------------------------- SECTION 1 SUPRISE ME  --------------------------------------------*/
 
+/*------------------------------------------------------------- PAGE DIVIDER  --------------------------------------------*/
+
+/*------------------------------------------------------------- SECTION 2 SECTIONTITLES (IT'S A MIX) --------------------------------------------*/
+
+
+.surpriseme .sectiontitle{
+
+  text-align: center;
+  width: 42%;
+  color: #7c7c7c; 
+  font-family:'Trirong', serif;
+  font-size:20px;
+  position: relative;
+  bottom: 11px;
+  margin-left: 30%;
+  margin-bottom: 7%;
+}
+
+.
+/*------------------------------------------------------------- SECTION 2 SECTIONTITLES (BUTTONS) --------------------------------------------*/
+
+
+
+.surprismeoptions{
+
+         margin-left: 8%;
+       }
+
+
+
+
+.surprismeoptions .btn1 {
+  background: #23c24d;
+  background-image: -webkit-linear-gradient(top, #23c24d, #2bcc36);
+  background-image: -moz-linear-gradient(top, #23c24d, #2bcc36);
+  background-image: -ms-linear-gradient(top, #23c24d, #2bcc36);
+  background-image: -o-linear-gradient(top, #23c24d, #2bcc36);
+  background-image: linear-gradient(to bottom, #23c24d, #2bcc36);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 18px;
+  text-decoration: none;
+      margin-left: 17%;
+}
+
+.surprismeoptions  .btn1:hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -o-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: linear-gradient(to bottom, #6c6d6e, #7b7e80);
+  text-decoration: none;
+}
+
+
+
+
+.surprismeoptions .btn2 {
+  background: #3e99de;
+  background-image: -webkit-linear-gradient(top, #3e99de, #426bd4);
+  background-image: -moz-linear-gradient(top, #3e99de, #426bd4);
+  background-image: -ms-linear-gradient(top, #3e99de, #426bd4);
+  background-image: -o-linear-gradient(top, #3e99de, #426bd4);
+  background-image: linear-gradient(to bottom, #3e99de, #426bd4);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 18px;
+  text-decoration: none;
+}
+
+.surprismeoptions .btn2:hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: -o-linear-gradient(top, #6c6d6e, #7b7e80);
+  background-image: linear-gradient(to bottom, #6c6d6e, #7b7e80);
+  text-decoration: none;
+}
+
+
+
+.surprismeoptions .btn3 {
+  background: #e81786;
+  background-image: -webkit-linear-gradient(top, #e81786, #d127a9);
+  background-image: -moz-linear-gradient(top, #e81786, #d127a9);
+  background-image: -ms-linear-gradient(top, #e81786, #d127a9);
+  background-image: -o-linear-gradient(top, #e81786, #d127a9);
+  background-image: linear-gradient(to bottom, #e81786, #d127a9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.surprismeoptions .btn3:hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -o-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: linear-gradient(to bottom, #6c6d6e, #6c6d6e);
+  text-decoration: none;
+}
+
+
+.surprismeoptions .btn4 {
+  background: #7117e8;
+  background-image: -webkit-linear-gradient(top, #7117e8, #6718a8);
+  background-image: -moz-linear-gradient(top, #7117e8, #6718a8);
+  background-image: -ms-linear-gradient(top, #7117e8, #6718a8);
+  background-image: -o-linear-gradient(top, #7117e8, #6718a8);
+  background-image: linear-gradient(to bottom, #7117e8, #6718a8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.surprismeoptions.btn4:hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -o-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: linear-gradient(to bottom, #6c6d6e, #6c6d6e);
+  text-decoration: none;
+}
+
+
+
+.surprismeoptions .btn5 {
+  background: #e61717;
+  background-image: -webkit-linear-gradient(top, #e61717, #a61919);
+  background-image: -moz-linear-gradient(top, #e61717, #a61919);
+  background-image: -ms-linear-gradient(top, #e61717, #a61919);
+  background-image: -o-linear-gradient(top, #e61717, #a61919);
+  background-image: linear-gradient(to bottom, #e61717, #a61919);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.surprismeoptions .btn5:hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -o-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: linear-gradient(to bottom, #6c6d6e, #6c6d6e);
+  text-decoration: none;
+}
+
+
+
+/*------------------------------------------------------------- SECTION 2 IMAGE BANNER (SURPRISE ME) --------------------------------------------*/
+
+
+.suprisemebanner{
+  margin-top: 8%;
+  margin-bottom:10%;
+}
+
+
+
+.surprisemebutton {
+      border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 22px;
+    background: #ffbf00;
+    padding: 10px 11px 11px 13px;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 29%;
+
+}
+
+.surprisemebutton :hover {
+  background: #6c6d6e;
+  background-image: -webkit-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -moz-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -ms-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: -o-linear-gradient(top, #6c6d6e, #6c6d6e);
+  background-image: linear-gradient(to bottom, #6c6d6e, #6c6d6e);
+  text-decoration: none;
+}
+
+
+
+/*------------------------------------------------------------SLIDESHOW--------------------------------------------------------------------*/
+
+/*------------------------------------------------------------FOOTER--------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+/*------------------------------------------------------------TRAVELGUIDE--------------------------------------------------------------------*/
+
+
+
+
+
+
+.travelguidebanner .imagebanner4 {
+
+    background-image: url(../images/travelguide/travel4.png);
+    min-width: 1024px;
+    background-size: cover;
+    height: 900px;
+    margin-bottom: 3%;
+    margin-top: -308px;
+  }
+
+
+
+
+
+
+
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+/*------------------------------------------------------------PLAN A TRIP--------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------------------------TITLE PLAN A TRIP--------------------------------------------------------------------*/
+
+/*------------------------------------------------------------EMBELLISHMENT--------------------------------------------------------------------*/
+
+/*------------------------------------------------------------DESCRIPTION PLAN A TRIP------------------------------------------------*/
+
+/*------------------------------------------------------------PAGE DIVIDER  PLAN A TRIP-----------------------------------------------------------*/
+
+
+.filter {
+    margin-bottom: 6%
+    margin-top: 6%;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 50px;
+}
+
+.filter select {
+    margin: 12px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 4px;
+    border: transparent;
+    width:140px;
+  }
+
+  .filter .destination {
+    margin: 12px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 4px;
+    border: transparent;
+    width:200px;
+    margin-left: 61px;
+  }
+
+
+.filterbutton input[type=submit] {
+
+    width: 15%;
+    background: #ffc61a;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 3px;
+    position: relative;
+    bottom: 36px;
+    left: 82%;
+   
+
+}
+
+
+
+/*------------------------------------------------------------ACTIVE FILTER  PLAN A TRIP------------------------------------*/
+
+
+.filterresults{
+  width: 97%;
+ margin-left: 2%;
+
+ }
+
+.filterresults ul li{
+  padding-left: 1%;
+  padding-right: 1%;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px
+  margin-right: 2%;
+  padding: 5px
+  border:black;
+  font-size: small;
+  border:solid;
+  border-color: grey;
+  border-radius: 5px;
+  border-width: 1px;
+  }
+
+
+.planatriptitle{
+  text-align: center;
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 10px;
+  margin-bottom: 4%;
+
+}
+
+
+
+
+/*------------------------------------------------------------TRIP RESULTS  PLAN A TRIP------------------------------------*/
+
+
+.imagepattern4 .tripresults{
+margin-top: 20%;
+
+}
+
+
+.imagepattern5 .bookings{
+
+
+}
+
+/*------------------------------------------------------------TRAVEL BOOKINGS  PLAN A TRIP------------------------------------*/
+/*------------------------------------------------------------FOOTER PLAN A TRIP------------------------------------*/
 
 
 
