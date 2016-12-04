@@ -122,7 +122,17 @@ video {
 }
 
 
+/*---------------------------------------------------- DISCOVER INDIA TRIAL ------------------------------------------*/
 
+.white-arch-header{
+    position: absolute;
+    width: 89%;
+    bottom: 0%;
+    margin-left: 6%;
+    background-image: url('../images/discoverindia/white header-24-24');
+    height: 350px;
+    margin-bottom: 0%;
+  }
 
 
 /*---------------------------------------------------- NAVBAR ------------------------------------------*/
@@ -379,7 +389,7 @@ border-left: none;
   /*transform: translate3d(-50%, -50%, 0);*/
   font-family:'Trirong', serif;
   font-style: italic;
-  font-size: 29px;
+  font-size: 26px;
   line-height: 201%;
   padding: 39px;
 }
@@ -430,10 +440,11 @@ border-left: none;
 
 
 .hyperlinks a{
+  top: 38px;
   position: relative;
   text-decoration: none;
   text-align: center;
-  padding:2%; 
+  padding:3%; 
   font-family:'Trirong', serif;
   font-size: 12px;
   color: red;
@@ -493,7 +504,6 @@ border-left: none;
 
 .subnavigation{
   margin-left: 32%
-
 
 }
 
@@ -560,7 +570,7 @@ border-left: none;
     min-width: 1024px;
     background-size: cover;
     height: 631px;
-    margin-bottom: 3%;
+    margin-bottom:  -3%;
   }
 
 
@@ -656,9 +666,16 @@ border-left: none;
 
 /*------------------------------------------------- SECTION 4 IMAGES (MUST DO'S) -------------------------------------------*/
 
+
+.imagepattern2{
+  margin-top: 30px;
+
+}
+
+
 .imagepattern2 .mustdos{
    
-  margin-top: 10%;
+margin-top: 62px;
    width: 32.3%;
  
 }
@@ -908,29 +925,36 @@ bottom: 21px;
 }
 
 
-/*------------------------------------------------------------- SECTION 2 IMAGES (CITIES) --------------------------------------------*/
+/*------------------------------------------------------------- SECTION 2 IMAGES (CITIES) ------------------------------*/
+
+/*-----------------------------------------ROW 1---- SECTION 2 IMAGES (CITIES) ------------------------------*/
 
 
-.imagepattern3citieslucknow{
-  width: 47.5%;
+.row1 .imagepattern3citieslucknow{
+  width: 47%;
+  float: left;
+  position: relative; 
+  margin-right: 1.8%;
+
+}
+
+
+.row1 .imagepattern3cities1 {  
+  width:23.2%;
   float: left;
   position: relative; 
   margin-right: 1.5%;
 
 }
 
-.imagepattern3cities {  
-  width: 22.85%;
+.row1 .imagepattern3cities2 {  
+  width: 23.65%;
   float: left;
   position: relative; 
   margin-right: 1.5%;
 
 }
 
-
-.imagepattern3citiespart1:nth-child(3n+0){
-margin-right: 0;
-}
 
 .imagepattern3 h5 { 
    font-family:'Trirong', serif;
@@ -940,7 +964,58 @@ margin-right: 0;
    width: 100%; 
    margin-top: -20%;
    color: #fff;
-   margin-left: 5%;
+   margin-left: 7%;
+}
+
+ .imagepattern3 img {
+   -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+
+.imagepattern3 img:hover {
+    -webkit-transform: translateY(-0.4em);
+    -moz-transform: translateY(-0.4em);
+    -o-transform: translateY(-0.4em);
+    -ms-transform: translateY(-0.4em);
+    transform: translateY(-0.4em);
+  }
+
+
+
+
+/*-----------------------------------------ROW 2---- SECTION 2 IMAGES (CITIES) ------------------------------*/
+
+.imagepattern3varanasi{
+    margin-right: 2%;
+    float: left;
+    width: 46.3%;
+}
+
+
+
+.row2 .imagepattern3cities1 {  
+    width: 23.5%;
+    float: left;
+    margin-right: 1.8%;
+ }
+
+
+.row2 .imagepattern3cities1 {  
+    width: 23.5%;
+    float: left;
+    margin-right: 1.9%;;
+ }
+
+.row2 .imagepattern3cities2 {  
+     width: 22.8%;
+    float: left;
+    margin-right: 1.5%;
+ }
+
+.row2.imagepattern3citie:nth-child(3n+0){
+margin-right: 0;
 }
 
 
