@@ -332,13 +332,59 @@ border-left: none;
 }
 
 
-.buttonlocator{
-  background-color: transparent;
-  position: relative;
-  margin-left: 82%;
-  margin-top: 286px;
+.buttonlocatornorth{
+  background-color: transparent;  
+  position: absolute;
+ margin-left: 80%;
+ margin-top: 266px;
+ z-index: 1;
 
 }
+.buttonlocatorsouth{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 81%;
+  margin-top: 413px;
+  z-index: 1;
+
+}
+
+.buttonlocatorcentral{
+  background-color: transparent;
+  position: absolute;
+      margin-left: 76%;
+    margin-top: 298px;
+    z-index: 1;
+
+}
+
+
+.buttonlocatoreast{
+  background-color: transparent;
+  position: absolute;
+  margin-left: 83.8%;
+    margin-top: 344px;
+    z-index: 1;
+ 
+}
+.buttonlocatorfareast{
+  background-color: transparent;
+  position: absolute;
+    margin-left: 88.5%;
+    margin-top: 310px;
+    z-index: 1;
+  
+}
+
+.buttonlocatorwest{
+  background-color: transparent;
+  position: absolute;
+    margin-left: 76%;
+    margin-top: 298px;
+    z-index: 1; 
+}
+
+
 
 /*.indiamap{
   position: absolute;
