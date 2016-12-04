@@ -722,6 +722,26 @@ border-left: none;
 
 }
 
+.mustdo-column{
+  width: 33%;
+  position: relative;
+  display: inline-table;
+}
+
+@media (max-width: 1076px) {
+  .mustdo-column {
+    width: 49%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mustdo-column {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
 
 .imagepattern2 .mustdos{
    
