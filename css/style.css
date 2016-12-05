@@ -507,9 +507,9 @@ border-left: none;
   position: relative;
   text-decoration: none;
   text-align: center;
-  
+ font-weight: bold;
   font-family:'Trirong', serif;
-  font-size: 12px;
+  font-size: 14px;
   color: red;
   margin-left: 43.5%; 
 }
@@ -888,8 +888,9 @@ margin-right: 0;
     font-size: 18px;
     position: relative;
     bottom: 20px;
-    margin-left: 6%;
-    margin-top: 3%
+    margin-left: 2%;
+    margin-top: 3%;
+    text-align: center;
 }
 
 
@@ -915,7 +916,7 @@ margin-right: 0;
 .appstore{
 
       position: relative;
-    margin-left: 67%;
+    margin-left: 39%;
     /* margin-bottom: 15%; */
     bottom: 389px;
 }
@@ -2356,7 +2357,7 @@ margin-left: 40%;
 
 
 
-.imagebanner4 {
+.imagebanner11 {
 
     position: absolute;
     width: 89%;
@@ -2409,6 +2410,10 @@ margin-left: 40%;
 
 /*------------------------------------------------------------TITLE OF NORTHERN REGION------------------------------------*/
 
+
+.north-title p{
+  text-align: left
+}
 
 .north-interior-page-title {
 
@@ -2805,7 +2810,7 @@ h4 {
 
 
 
-/*-------------------------------------- NORTHERN REGION HYPERLINKS FOR ADD EVENT,GO TO WEBSITE------------------------------------*/
+/*-------------------------------------- NORTHERN REGION HYPERLINKS FOR ADD EVENT,GO TO WEBSITE---------------------------*/
 
 .calender-nav{
   font-size: small;
@@ -2844,7 +2849,7 @@ h4 {
 
 
 
-/*-------------------------------------------------------KUTCH CITY--------------------------------------------------------------*/
+/*-------------------------------------------------------KUTCH CITY---------------------------------------------------*/
 /*-------------------------------------------------------KUTCH CITY--------------------------------------------------------------*/
 /*-------------------------------------------------------KUTCH CITY--------------------------------------------------------------*/
 /*-------------------------------------------------------KUTCH CITY--------------------------------------------------------------*/
@@ -2857,7 +2862,7 @@ h4 {
 
 
 
-/*-------------------------------------------------------KUTCH HEADER---------------------------------------------------------*/
+/*-------------------------------------------------------KUTCH HEADER--------------------------------------------*/
 
 .kutch-title h1{
     margin-top: 3%;
@@ -3027,7 +3032,7 @@ body {
 img { border: 0; max-width: 100%; }
 
 .main-div{
-  width: 96%;
+  width: 100%;
   
 }
 
@@ -3262,11 +3267,25 @@ img { border: 0; max-width: 100%; }
 }
 
 
+
+
+
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
+/*--------------------------------------------------MEDIA QUERIES----------------------------------------------------*/
 /*Media queries*/
 
 @media only screen and (max-width: 1400px) {
 
-    .indiamap, .buttonlocatornorth, .buttonlocatorsouth, .buttonlocatorcentral, .buttonlocatoreast, .buttonlocatorfareast, .buttonlocatorwest{
+
+
+
+
+    .indiamap, .buttonlocatornorth, .buttonlocatorsouth, .buttonlocatorcentral, .buttonlocatoreast, .buttonlocatorfareast,
+     .buttonlocatorwest{
       display: none;
     }
 
@@ -3274,7 +3293,41 @@ img { border: 0; max-width: 100%; }
       .imagepattern4explore{
     width: 48%;
   }
+
+  .imagepattern5 img {
+    width: 48%;
+  }
+
+  .imagebanner1, .imagebanner2, .maharajaexpressbanner, .imagebanner8{
+        background-position: center center;
+  }
+
+.appstore {
+    
+    margin-left: 38%:;}
+
+
+
+.aerostring{
+  margin-left: -35%;
+}
+
+.aero{
+  margin-left: -1%;
+
+
+}
+
+.travelicons{
+  margin-left: -2%;
+}
+
 } 
+
+
+
+
+
 
 
 
@@ -3290,7 +3343,45 @@ img { border: 0; max-width: 100%; }
   .interior-page-title{
     margin-top: -30px;
   }
+
+   .imagebanner1,.imagebanner2, .maharajaexpressbanner, .imagebanner8 {
+        background-position: center center;
+  }
+
+.appstore {
+    position: relative;
+    margin-left: 32%}
+
+.hyperlinks a{
+  margin-left: 39.5%;
 }
+
+
+
+
+.filter {
+  width: 96%;
+  height: 103px;
+}
+
+.filterbutton input[type=submit]{
+  width: 16%;
+  top: -32px;
+  left: 44%
+
+}
+.filterresults ul li{
+  margin-top: 40px;
+}
+
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 800px){
   .searchTerm{
@@ -3299,10 +3390,13 @@ img { border: 0; max-width: 100%; }
 
   .hero-container h1{
     font-size: 70px;
+    top:29%;
   }
 
   .hero-container p{
     font-size: 30px;
+        top: 42%
+
   }
   .container{
     margin: 0 4%;
@@ -3317,9 +3411,86 @@ img { border: 0; max-width: 100%; }
   .imagepattern4explore{
     width: 48%;
   }
+
+
+  .imagebanner1, .imagebanner2,.maharajaexpressbanner, .imagebanner8 {
+        background-position: center center;
+  }
+
+.appstore {   
+    margin-left: 29%;}
+
+.row1 .imagepattern3citieslucknow {
+    width: 80%;
+    /* float: left; */}
+
+
+.row1 .imagepattern3cities1 {
+    width: 39.2%;}
+
+
+.row1 .imagepattern3cities2 {
+    width: 57.65%;
+    float: left;}
+
+
+.row2 .imagepattern3cities1 {
+    width: 98.5%;
+    /* float: left; */}
+
+.imagepattern3varanasi {
+    margin-right: 2%;
+    /* float: left; */
+    width: 88%;}
+
+
+.imagepattern3varanasi {
+    margin-right: 2%;
+    /* float: left; */
+    width: 80%;}
+
+.row2 .imagepattern3cities2 {
+    width: 84.8%;}
+
+.maharajaexpressbanner h1{
+
+  margin-left: 17%
+}
+.maharajaexpressbanner p{
+  margin-left: -21%
+
+
 }
 
+
+
+
+
+
+
+
+
+}
+
+
 @media only screen and (max-width: 680) {
+
+  .interior-page-title, .center {
+      margin-top: 50px;
+  }
+
+
+  .imagebanner1, .imagebanner2, .maharajaexpressbanner, .imagebanner8 {
+        background-position: center center;
+  }
+
+
+
+
+
+}
+
+
 
 }
 
