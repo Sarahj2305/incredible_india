@@ -187,19 +187,25 @@ border-left: none;
 
 .bottom-nav{
   position: relative;
-  left: -4%;
+  width: 100%;
+  /* left: -4%; */
   top: 46px;
   margin-right: 1%;
+  text-align: center;
 }
 
 .nav-links{
   display: inline-block;
   position: relative;
   top: -10px;
-  width: 66%;
-  
-
+  /*width: 66%;*/
 }
+
+.top-nav{
+  width: 100%;
+  text-align: right;
+}
+
 
 .nav-links li{
   display: inline-block;
@@ -233,13 +239,13 @@ border-left: none;
 .searchTerm {
     border: 1px solid #fff;
     float: right;
-    width: 71%;
+    width: 206px;
     background: transparent;
-    position: absolute;
-    margin-top: -5%;
-    margin-left: 110%;
+    position: relative;
+    /* margin-top: -5%; */
+    /* margin-left: 110%; */
     padding: 5px;
-    height: 17px;
+    height: 22px;
     border-radius: 8px;
     outline: none;
     color: white;
@@ -313,6 +319,7 @@ border-left: none;
 .hero-container p{
 
   font-weight: bold;
+  text-align: center;
   padding: 2px;
   color: white;
   position: absolute;
@@ -982,7 +989,7 @@ margin-right: 0;
   }
 
 .nav-logo{
-  margin-left: 15%;
+  /*margin-left: 15%;*/
 
 }
 
@@ -3205,4 +3212,57 @@ img { border: 0; max-width: 100%; }
     right: auto;
   }
 }
+
+
+
+/*new css*/
+
+.headersearch{
+  display: inline-block;
+  height: 22px;
+}
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 1400px) {
+
+    .indiamap, .buttonlocatornorth, .buttonlocatorsouth, .buttonlocatorcentral, .buttonlocatoreast, .buttonlocatorfareast, .buttonlocatorwest{
+      display: none;
+    }
+} 
+
+@media only screen and (max-width: 800px){
+  .searchTerm{
+    margin-top: 20px;
+  }
+
+  .hero-container h1{
+    font-size: 70px;
+  }
+
+  .hero-container p{
+    font-size: 30px;
+  }
+  .container{
+    margin: 0 4%;
+  }
+
+  .modi blockquote{
+    padding: 16px;
+    font-size: 20px;
+    line-height: 161%;
+  }
+
+  .imagepattern4explore{
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 1)
+
+
+
+
+
 
