@@ -3374,6 +3374,21 @@ img { border: 0; max-width: 100%; }
   margin-top: 40px;
 }
 
+
+
+.aerostring{
+  margin-left: -26%;
+}
+
+.aero{
+  margin-left: -1%;
+
+
+}
+
+.travelicons{
+  margin-left: -2%;
+}
 }
 
 
@@ -3470,6 +3485,9 @@ img { border: 0; max-width: 100%; }
 
 
 
+
+
+
 }
 
 
@@ -3484,11 +3502,22 @@ img { border: 0; max-width: 100%; }
         background-position: center center;
   }
 
+.aerostring{
+  margin-left: -39%;
+}
 
-
+.aero{
+  margin-left: -3%;
 
 
 }
+
+.travelicons{
+  margin-left: -4%;
+}
+
+
+
 
 
 
