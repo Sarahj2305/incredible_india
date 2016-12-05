@@ -659,9 +659,11 @@ text-align: center;
 .imagebutton{
 
     position: relative;
-    margin-left: 50%;
+    /* margin-left: 50%; */
+    text-align: center;
+    width: 100%;
     bottom: 407px;
-    right: 12%;
+    /* right: 12%; */
     }
 
 .button{
@@ -682,7 +684,7 @@ text-align: center;
 
 
 .button-one {
-     margin-left: 3%;
+    margin-left: 0;
     position: relative;
     /* margin-right: 80%; */
     border-radius: 4px;
@@ -690,7 +692,7 @@ text-align: center;
     opacity: 0.8;
     border: none;
     padding: 20px;
-    width: 46%;
+    width: 340px;
     transition: all 0.5s;
 }
 
@@ -746,7 +748,7 @@ text-align: center;
 
 @media (max-width: 1076px) {
   .mustdo-column {
-    width: 49%;
+    width: 46%;
     margin-top: 20px;
   }
 }
@@ -754,7 +756,15 @@ text-align: center;
 @media (max-width: 500px) {
   .mustdo-column {
     width: 100%;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
+  }
+
+  .featured{
+    width: 100%;
+  }
+
+  .mustdo-column h5{
+    float: left!important;
   }
 }
 
@@ -764,6 +774,10 @@ text-align: center;
 margin-top: 62px;
    width: 32.3%;
  
+}
+
+.surprisemebanner{
+  height: 640px;
 }
 
 
@@ -910,11 +924,14 @@ margin-right: 0;
 
 .mobileappbutton{
 
-   margin-left: 54%;
+   /*margin-left: 54%;*/
     position: relative;
     /* margin-left: 66%; */
     bottom: 407px;
     /*right: -11%;*/
+    margin: 0;
+    padding: 0 4%;
+    text-align: center;
 }
     }
 
@@ -987,7 +1004,14 @@ margin-right: 0;
     width:100%;
     background-size: cover;
     height: 385px;
-    margin-bottom: 3%;
+    padding-bottom: 3%;
+  }
+
+  .footer-logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
   }
 
 .nav-logo{
@@ -996,19 +1020,27 @@ margin-right: 0;
 }
 
 .footer-nav{
-  font-size: small;
-  position: relative;
-  width: 43%
-  margin-left: 27%;
+    font-size: small;
+    position: relative;
+    width: 100%;
+    /* margin-left: 27%; */
+    /* padding: 0 4%; */
+    text-align: center;
 }
 
 .footernavigation{
   text-decoration: none;
   display: inline-block;
   position: relative;
-      margin-left: 4%;
+      /*margin-left: 4%;*/
 
  
+}
+
+
+.social{
+    left: 0;
+    margin-top: 20px;
 }
 
 .footernavigation li{
@@ -1056,8 +1088,8 @@ margin-right: 0;
   color: #7c7c7c; 
   font-family:'Open Sans', sans-serif;
   font-size:11px;
-  margin-top: 3%;
-  margin-left: 39%;
+  margin-top: 20px;
+  /*margin-left: 39%;*/
 }
 
 
