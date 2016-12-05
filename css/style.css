@@ -3264,6 +3264,11 @@ img { border: 0; max-width: 100%; }
     .indiamap, .buttonlocatornorth, .buttonlocatorsouth, .buttonlocatorcentral, .buttonlocatoreast, .buttonlocatorfareast, .buttonlocatorwest{
       display: none;
     }
+
+
+      .imagepattern4explore{
+    width: 48%;
+  }
 } 
 
 @media only screen and (max-width: 800px){
