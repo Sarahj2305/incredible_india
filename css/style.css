@@ -3389,6 +3389,20 @@ img { border: 0; max-width: 100%; }
 .travelicons{
   margin-left: -2%;
 }
+
+
+
+.northernregionarticle h1{
+  margin-top: -30;
+  margin-left:76%;
+}
+
+
+.northernregionarticle p{
+
+  margin-left: 76%;
+}
+
 }
 
 
@@ -3477,14 +3491,19 @@ img { border: 0; max-width: 100%; }
 
 }
 
+.aerostring{
+  margin-left: -39%;
+}
+
+.aero{
+  margin-left: -3%;
 
 
+}
 
-
-
-
-
-
+.travelicons{
+  margin-left: -4%;
+}
 
 
 
@@ -3507,14 +3526,15 @@ img { border: 0; max-width: 100%; }
 }
 
 .aero{
-  margin-left: -3%;
+  margin-left: -85%;
 
 
 }
 
 .travelicons{
-  margin-left: -4%;
+  margin-left: -86%;
 }
+
 
 
 
