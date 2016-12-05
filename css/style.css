@@ -628,7 +628,7 @@ border-left: none;
   .imagebanner1 {
 
     background-image: url('../images/bannerindia.jpg');
-    min-width: 1024px;
+    /*min-width: 1024px;*/
     background-size: cover;
     height: 631px;
     margin-bottom: -3%;
@@ -882,7 +882,7 @@ margin-right: 0;
  .imagebanner2 {
 
     background-image: url('../images/mobileapp.png');
-    min-width: 1024px;
+    /*min-width: 1024px;*/
     background-size: cover;
     height: 441px;
     margin-bottom: 3%;
@@ -912,7 +912,7 @@ margin-right: 0;
     position: relative;
     /* margin-left: 66%; */
     bottom: 407px;
-    right: -11%;
+    /*right: -11%;*/
 }
     }
 
