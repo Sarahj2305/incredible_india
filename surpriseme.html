@@ -30,46 +30,61 @@
 
 
 
-	<div class="surpriseme-hero"><!-- <img class="hero-container-arch" src="images/discoverindia/discoverindiaheader.png"> -->
-			<div class="top-nav">
-						<ul>
-					    	<SELECT class="dropdown">
-	                          <option selected> Language</option>
-	                          <option>German</option>
-	                          <option>French</option>
-	                          <option>Hindi</option>
-	                          <option>Arabic</option>
-	                          <option>Spanish</option>
-	                       </SELECT>
+
+
+	<div class="hero-container parallax-window" data-parallax="scroll" data-image-src="images/discoverindia/Jodhpur-The-Blue-City-Header.jpg">
+		<div class="top-nav">
+
+					<ul>
+				    	<SELECT class="dropdown">
+                          <option selected> Language</option>
+                          <option>German</option>
+                          <option>French</option>
+                          <option>Hindi</option>
+                          <option>Arabic</option>
+                          <option>Spanish</option>
+                         </SELECT>
 
 						<a href="#"><img class="wishlistheart" src="images/wishlistheart.png"></a>
 						<li><a href="#">WISHLIST</a></li>
-					    </ul>
-			</div><!--top-nav-->
-
-			<div class="bottom-nav"> <!--.........had to style header differently here.............-->
-				<a href="index.html"><img class="nav-logo" src="images/incredibleindiawhitelogo.png"></a>
-
-				<ul class="nav-links">
-					<li><a href="#">DISCOVER INDIA</a></li>
-					<li><a href="travelguide.html">TRAVEL GUIDE</a></li>
-					<li><a href="#">PLAN A TRIP</a></li>
-					<li><a href="surpriseme.html">SURPRISE ME</a></li>
-					<li><a href="media.html">MEDIA</a></li>
+				    </ul>
+		</div><!--top-nav-->
 
 
-			<div class="wrap">
+
+		<div class="bottom-nav"> <!--.........had to style header differently here.............-->
+			<a href="index.html"><img class="nav-logo" src="images/incredibleindiawhitelogo.png"></a>
+
+			<ul class="nav-links">
+				<li><a href="discoverindia.html">DISCOVER INDIA</a></li>
+				<li><a href="travelguide.html">TRAVEL GUIDE</a></li>
+				<li><a href="planatrip.html">PLAN A TRIP</a></li>
+				<li><a href="surpriseme.html">SURPRISE ME</a></li>
+				<li><a href="media.html">MEDIA</a></li>
+
+
+		<div class="wrap">
 			   <div class="headersearch">
-			      <input type="text" class="searchTerm" placeholder="SEARCH">
-			      
+			      <input type="text" class="searchTerm" placeholder="SEARCH">			      
 			      <button type="submit" class="searchButton">
 			      <a href="#"><img class="searchicon" src="images/searchicon.png" ></a>
-			        </button>
-			  	 </div>
-			</div>
-				</ul>
-			</div><!--bottom nav-->
-		</div><!--hero container arch-->
+			      </button>			      
+			   </div>
+		</div>
+			</ul>
+		</div><!--bottom nav-->	
+
+
+			
+
+			<div class="white-arch-header">                		
+    	</div><!--imagebanner--> 
+
+				
+		
+
+			
+		</div><!--herocontainer-->
 
 <!--.........................................SECTION 1 SURPRISE ME DESCRIPTION.........................................-->
 
@@ -138,130 +153,35 @@
 <!--..........................................IMAGE BANNER (SURPRISE ME).............................................-->
 
 
-		<div class="suprisemebanner">			
 
-				<style>
-				* {box-sizing:border-box}
-				body {font-family: Verdana,sans-serif;}
-				.mySlides {display:none}
 
-				/* Slideshow container */
-				.slideshow-container {
-				  max-width: 0 auto;
-				  position: relative;
-				  margin: auto;
-				}
 
-				/* Caption text */
-				.text {
-				  color: #f2f2f2;
-				  font-size: 15px;
-				  padding: 8px 12px;
-				  position: absolute;
-				  bottom: 8px;
-				  width: 100%;
-				  text-align: center;
-				}
+					<div id="captioned-gallery">
+						<figure class="slider">
+							<figure>
+								<img src="images/surpriseme/itsamix1.png" alt>
+								<figcaption>Bridal Collection 2016 launched by Suneet Patil</figcaption>
+							</figure>
+							<figure>
+								<img src="images/surpriseme/itsamix2.png" alt>
+								<figcaption>Colours of India by Dhiraj Sapkal at Crawford Market, Mumbai</figcaption>
+							</figure>
+							<figure>
+								<img src="images/surpriseme/itsamix3.png" alt>
+								<figcaption>Jodhpur, Steve Mccurry</figcaption>
+							</figure>	
+							<figure>
+								<img src="images/media/eventslider4.png" alt>
+								<figcaption>Become a writer with Incredible India</figcaption>
+							</figure>	
+							<figure>
+								<img src="images/media/eventslider2.png" alt>
+								<figcaption>International Festival</figcaption>
+							</figure>							
+					</div>
 
-				/* Number text (1/3 etc) */
-				.numbertext {
-				  color: #f2f2f2;
-				  font-size: 12px;
-				  padding: 8px 12px;
-				  position: absolute;
-				  top: 0;
-				}
 
-				/* The dots/bullets/indicators */
-				.dot {
-				  height: 13px;
-				  width: 13px;
-				  margin: 0 2px;
-				  background-color: #bbb;
-				  border-radius: 50%;
-				  display: inline-block;
-				  transition: background-color 10s ease;
-				}
 
-				.active {
-				  background-color: #717171;
-				}
-
-				/* Fading animation */
-				.fade {
-				  -webkit-animation-name: fade;
-				  -webkit-animation-duration: 10s;
-				  animation-name: fade;
-				  animation-duration: 10s;
-				}
-
-				@-webkit-keyframes fade {
-				  from {opacity: .4}
-				  to {opacity: 1}
-				}
-
-				@keyframes fade {
-				  from {opacity: 4}
-				  to {opacity: 0.5}
-				}
-
-				/* On smaller screens, decrease text size */
-				@media only screen and (max-width: 300px) {
-				  .text {font-size: 11px}
-				}
-				</style>
-				
-				<div class="slideshow-container">
-
-				<div class="mySlides fade">
-				  <div class="numbertext">1 / 3</div>
-				  <img src="images/surpriseme/itsamix2.png" style="width:100%">
-				  <div class="text">Vegetable Vendor, Mumbai</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">2 / 3</div>
-				  <img src="images/surpriseme/itsamix1.png" style="width:100%">
-				  <div class="text">Bridal Collection 2016</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">3 / 3</div>
-				  <img src="images/surpriseme/itsamix3.png" style="width:100%">
-				  <div class="text">Jodhpur Lanes by Steve McCurry</div>
-				</div>
-
-				</div>
-				<br>
-
-				<div style="text-align:center">
-				  <span class="dot"></span>
-				  <span class="dot"></span>
-				  <span class="dot"></span>
-				</div>
-
-				<script>
-				var slideIndex = 0;
-				showSlides();
-
-				function showSlides() {
-				    var i;
-				    var slides = document.getElementsByClassName("mySlides");
-				    var dots = document.getElementsByClassName("dot");
-				    for (i = 0; i < slides.length; i++) {
-				       slides[i].style.display = "none";
-				    }
-				    slideIndex++;
-				    if (slideIndex> slides.length) {slideIndex = 1}
-				    for (i = 0; i < dots.length; i++) {
-				        dots[i].className = dots[i].className.replace(" active", "");
-				    }
-				    slides[slideIndex-1].style.display = "block";
-				    dots[slideIndex-1].className += " active";
-				    setTimeout(showSlides, 2000); // Change image every 2 seconds
-				}
-				</script>
-				<br>
 
 <!--..........................................SURPRISEME BUTTON (SURPRISE ME).............................................-->
 
@@ -274,45 +194,10 @@
 			</div>
 </div><!--container-->
 
-				<hr>
+				<hr style="margin-top: 130px">
 
 
 
-
-<!--..........................................FOOTER.............................................-->
-               
-				
-		<div class="footer-nav">
-				<a href="index.html"><img class="nav-logo" src="images/incredibleindiacolourlogo.png"></a>
-
-
-				<ul class="footer-links">
-					<li><a href="discover.html">DISCOVER INDIA</a></li>
-					<li><a href="travelguide.html">TRAVEL GUIDE</a></li>
-					<li><a href="#">PLAN A TRIP</a></li>
-					<li><a href="surpriseme.html">SURPRISE ME</a></li>
-					<li><a href="media.html">MEDIA</a></li>
-				</ul>		
-			</div><!--footer-nav-->
-
-
-			<div class="socialmediaicons" >
-				<a href=""><img class="hcenter" src="images/socialmediaicons.png"></a>				
-			</div><!--social-->
-
-</div>
-		
-
-<hr>
-
-		<div class="copyright">
-		<h1>Copyrights       incredibleindia.com |  Ministry of tourism</h1>
-		</div>
-
-		</div><!--footer-->
-		
-
-		</footer>         
 		
 
 

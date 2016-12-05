@@ -128,6 +128,7 @@ video {
     position: absolute;
     width: 100%;
     bottom: 0;
+    top: 13px;
     /* margin-left: 6%; */
     background-image: url(../images/discoverindia/white_header.png);
     background-size: contain;
@@ -493,15 +494,15 @@ border-left: none;
 
 
 .hyperlinks a{
-  top: 38px;
+  top: 20px;
   position: relative;
   text-decoration: none;
   text-align: center;
-  padding:3%; 
+  
   font-family:'Trirong', serif;
   font-size: 12px;
   color: red;
-  margin-left: 42.5%; 
+  margin-left: 43.5%; 
 }
 
 .hyperlinks a:hover{
@@ -619,11 +620,11 @@ border-left: none;
 
   .imagebanner1 {
 
-    background-image: url('../images/bannersurpriseme.png');
+    background-image: url('../images/bannerindia.jpg');
     min-width: 1024px;
     background-size: cover;
     height: 631px;
-    margin-bottom:  -3%;
+    margin-bottom: -3%;
   }
 
 
@@ -634,14 +635,14 @@ border-left: none;
 
 
 .surprisemebanner h1{
-
+text-align: center;
   color: white;  
   font-family:'Trirong', serif;
   font-size:25px;
   font-style: italic;
   letter-spacing: 1px;
   position: relative;
-  margin-left: 46%;
+  margin-left: 3%;
   bottom: 385px;
 
 }
@@ -672,15 +673,16 @@ border-left: none;
 
 
 .button-one {
-  position: relative;
-  /* margin-right: 80%; */
-  border-radius: 4px;
-  background-color:#ffc61a;
-  opacity: 0.8;
-  border: none;
-  padding: 20px;
-  width: 300px;
-  transition: all 0.5s;
+     margin-left: 3%;
+    position: relative;
+    /* margin-right: 80%; */
+    border-radius: 4px;
+    background-color: #ffc61a;
+    opacity: 0.8;
+    border: none;
+    padding: 20px;
+    width: 46%;
+    transition: all 0.5s;
 }
 
 
@@ -726,7 +728,9 @@ border-left: none;
 }
 
 .mustdo-column{
-  width: 33%;
+  margin-left: 2%;
+  width: 30%;
+  margin-right: 0.5%;
   position: relative;
   display: inline-table;
 }
@@ -772,6 +776,39 @@ margin-right: 0;
   margin-bottom: 4.5%;  
 }
 
+
+
+
+.imagepattern2-mustdo-column h5{
+
+   font-size: 14px;
+   color: #2f2f2f;
+    width: 52%;
+    margin-top: -36%;
+    margin-bottom: 19px}
+
+.mustdo-column h5{
+
+ float: right;
+   font-family:'Trirong', serif;
+   font-size: 14px;    
+   color: #2f2f2f;
+   text-align: justify; 
+
+}
+
+.mustdo-column h4{
+
+ float: right;
+   font-family:'Trirong', serif;
+   font-size: 12px;    
+   color: grey;
+   text-align: justify; 
+
+}
+
+
+
 .imagepattern4 h5 { 
    float: right;
    font-family:'Trirong', serif;
@@ -779,10 +816,10 @@ margin-right: 0;
    position: absolute; 
    left: 0; 
    width: 100%; 
-   margin-top: -20%;
+   margin-top: -23%;
    color: #fff;
-   margin-left: 5%;
-}
+   margin-left: 10%;}
+
 
 .imagepattern4 h4 { 
    font-family:'Trirong', serif;
@@ -795,6 +832,23 @@ margin-right: 0;
    margin-left: 5%;
 }
 
+
+
+
+ .mustdo-column img {
+   -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+
+.mustdo-column img:hover {
+    -webkit-transform: translateY(-0.4em);
+    -moz-transform: translateY(-0.4em);
+    -o-transform: translateY(-0.4em);
+    -ms-transform: translateY(-0.4em);
+    transform: translateY(-0.4em);
+  }
 
 
 
@@ -845,6 +899,75 @@ margin-right: 0;
 
 
 
+.mobileappbutton{
+
+   margin-left: 54%;
+    position: relative;
+    /* margin-left: 66%; */
+    bottom: 407px;
+    right: -11%;
+}
+    }
+
+.button{
+
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.button-four {
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 0 0 0 100px;
+}
+
+
+.button-four {
+     margin-left: 3%;
+    position: relative;
+    /* margin-right: 80%; */
+    border-radius: 4px;
+    background-color: #ffc61a;
+    opacity: 0.8;
+    border: none;
+    padding: 20px;
+    width: 46%;
+    transition: all 0.5s;
+}
+
+
+.button-four span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-four span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-four:hover span {
+  padding-right: 25px;
+}
+
+.button-four:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
 
 /*------------------------------------------------- FOOTER-------------------------------------------*/
 
@@ -870,25 +993,28 @@ margin-right: 0;
   margin-left: 27%;
 }
 
-.footer-links{
+.footernavigation{
+  text-decoration: none;
   display: inline-block;
   position: relative;
+      margin-left: 4%;
+
  
 }
 
-.footer-links li{
+.footernavigation li{
   display: inline-block;
   margin-right: 10px;
   font-family: 'Open Sans', sans-serif;
 
 }
 
-.footer-links li a{
+.footernavigation li a{
   color: #2f2f2f;
   text-decoration: none;
 }
 
-.footer-links a:hover {  
+.footernavigation a:hover {  
   color:#c2c2c2;
   border-width: 0px 0px 4px 0px;
   padding-bottom: 5px;
@@ -1035,9 +1161,9 @@ bottom: 21px;
    position: absolute; 
    left: 0; 
    width: 100%; 
-   margin-top: -20%;
+   margin-top: -23%;
    color: #fff;
-   margin-left: 7%;
+   margin-left: 10%;
 }
 
  .imagepattern3 img {
@@ -1140,9 +1266,9 @@ margin-right: 0;
    position: absolute; 
    left: 0; 
    width: 100%; 
-   margin-top: -20%;
+   margin-top: -23%;
    color: #fff;
-   margin-left: 5%;
+   margin-left: 10%;
 }
 
 
@@ -1260,9 +1386,9 @@ margin-right: 0;
    position: absolute; 
    left: 0; 
    width: 100%; 
-   margin-top: -20%;
+   margin-top: -23%;
    color: #fff;
-   margin-left: 5%;
+   margin-left: 10%;
 }
 
 
@@ -1370,7 +1496,7 @@ figure.slider figure figcaption {
   position: absolute; bottom: 0;
   background: rgba(0,0,0,0.4);
   color: #fff; width: 100%;
-  font-size: 2rem; padding: .6rem; 
+  font-size: 1.8rem; padding: 1.4rem; 
 }
 
 
@@ -1599,6 +1725,7 @@ margin-bottom: 169px;
   padding: 10px 20px 10px 18px;
   text-decoration: none;
       margin-left: 17%;
+      margin-bottom: 3%;
 }
 
 .surprismeoptions  .btn1:hover {
@@ -1740,7 +1867,7 @@ margin-bottom: 169px;
 
 
 .surprisemebutton {
-      border-radius: 8px;
+    border-radius: 8px;
     font-family: Georgia;
     color: #ffffff;
     font-size: 22px;
@@ -1749,6 +1876,7 @@ margin-bottom: 169px;
     text-decoration: none;
     position: absolute;
     margin-left: 29%;
+        margin-top: 16px;
 
 }
 
@@ -1778,7 +1906,34 @@ margin-bottom: 169px;
 /*------------------------------------------------------------TRAVELGUIDE-------------------------------------------------------*/
 /*------------------------------------------------------------TRAVELGUIDE---------------------------------------------------------*/
 /*------------------------------------------------------------TRAVELGUIDE----------------------------------------------------*/
+  .imagebanner8 {
 
+    background-image: url('../images/bannersurpriseme.png');
+    min-width: 1024px;
+    background-size: cover;
+    height: 631px;
+    margin-bottom:  20px;
+  }
+
+.imagebanner8 {
+  width: 100%;
+}
+
+
+
+
+.travelguidebanner h1{
+text-align: center;
+  color: white;  
+  font-family:'Trirong', serif;
+  font-size:25px;
+  font-style: italic;
+  letter-spacing: 1px;
+  position: relative;
+  margin-left: 3%;
+  bottom: 385px;
+
+}
 
 
 
@@ -2137,7 +2292,7 @@ margin-left: 40%;
 
 
 .north-title h1{
-    margin-top: 3%;
+    margin-top: 5%;
     width: -2%;
     position: absolute;
     color: #fff;
@@ -2304,18 +2459,6 @@ margin-right: 0;
 .imagepattern6 img:hover{  
  /*animations here  */
 }
-
-.imagepattern6 h5 { 
-   font-family:'Trirong', serif;
-   font-size: 14px;
-   position: absolute; 
-   left: 0; 
-   width: 100%; 
-   margin-top: -8;
-   color: black;
-   margin-left: 5%;
-}
-
 
 
  .imagepattern6 img {
@@ -2512,12 +2655,30 @@ margin-right: 0;
   bottom: 385px;
 }
 */
+.articlenorth{
 
+  margin-top: 11px;
+    width: 92%;
+    margin-left: 4%;
+        margin-bottom: 20%
+
+}
+
+.articlenorth p{
+ text-align: justify; 
+  text-align-last: left;
+  color: #2f2f2f;
+  font-family:'Trirong', serif;
+  font-size: 14px; 
+  position: relative;
+      top: 35px;}
 
 
 .article {
-  width: 92%;
-  margin-left: 4%;
+      margin-top: -190px;
+    width: 90%;
+    margin-left: 7%;
+        margin-bottom: 20%
 }
 
 .article p{
@@ -2826,9 +2987,6 @@ img { border: 0; max-width: 100%; }
 
 .main-div{
   width: 96%;
-  background-color: rgba(255, 255, 255, 0.2);
-  margin:0 auto;
-  border-radius:20px;
   
 }
 
@@ -2836,8 +2994,9 @@ img { border: 0; max-width: 100%; }
   font-size: 3.26em;
   
   text-align: center;
-  color: #efefef;
+  color: #f8f4f4;
   text-shadow: 1px 1px 0 #000;
+  border: solid;
 }
 
 /** timeline box structure **/
@@ -2858,19 +3017,6 @@ img { border: 0; max-width: 100%; }
   margin-left: -1.5px;
 }
 
-.tldate {
-  display: block;
-  width: 200px;
-  background: #414141;
-  border: 3px solid #212121;
-  color: #ededed;
-  margin: 0 auto;
-  padding: 3px 0;
-  font-family:'ubuntu';
-  font-weight: bold;
-  text-align: center;
-  -webkit-box-shadow: 0 0 11px rgba(0,0,0,0.35);
-}
 
 .timeline li {
   margin-bottom: 25px;
@@ -2893,8 +3039,8 @@ img { border: 0; max-width: 100%; }
 .timeline li .timeline-panel {
   width: 40%;
   float: left;
-   background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #d4d4d4;
+  background-color: #fff;
+ 
   padding: 20px;
   position: relative;
   margin: 5px 50px 5px 50px;
@@ -2964,7 +3110,7 @@ img { border: 0; max-width: 100%; }
 
 .title-div h1{
   text-align:center;
-   font-family: 'ubuntu';
+   font-family: 'Trirong', serif;
   font-weight:900;
   font-size:55px;
   color:#fff;
@@ -2972,7 +3118,7 @@ img { border: 0; max-width: 100%; }
 }
 .title-div h2{
   text-align:center;
-    font-family:'ubuntu';
+  font-family:'Trirong', serif;
   font-weight:400;
   
   font-size:35px;
@@ -2980,41 +3126,24 @@ img { border: 0; max-width: 100%; }
 }
 
 .title-div li{
-   display: inline;
+  display: inline;
  text-align:center;
   padding-right:45px;
-}
-
-/** timeline circle icons **/
-.timeline li .tl-circ {
-  position: absolute;
-  top: 23px;
-  left: 50%;
-  text-align: center;
-  background: #cc0000;
-  color: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  margin-left: -16px;
-  border: 3px solid #fff;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  z-index: 99999;
 }
 
 
 /** timeline content **/
 
 .tl-heading h4 {
+  line-height: 20px;
+  font-size: 14px;
   margin: 0;
-  font-family:'playfair display';
-  font-weight:400;
-  color: #fff;
+  font-family:'Trirong', serif;
+  color: #2f2f2f;
+  font-weight: 200;
   text-align:center;
-  font-size:22px;
+  font-size:14px;
+  text-align: left;
 }
 
 .tl-body p, .tl-body ul {
@@ -3040,7 +3169,7 @@ img { border: 0; max-width: 100%; }
   }
   
   .tldate { width: 140px;
-  font-family:'playfair display';}
+  font-family:'Trirong', serif;}
 
   ul.timeline li .timeline-panel {
     width: calc(100% - 90px);
